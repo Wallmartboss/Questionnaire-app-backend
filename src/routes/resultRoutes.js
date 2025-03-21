@@ -32,16 +32,3 @@ router.post('/', async (req, res) => {
 });
 
 export default router;
-
-// import express from 'express';
-// import Result from '../models/result.js';
-
-// const router = express.Router();
-
-// router.post('/', async (req, res) => {
-//   const newResult = new Result(req.body);
-//   await newResult.save();
-//   res.json(newResult);
-// });
-
-// export default router;

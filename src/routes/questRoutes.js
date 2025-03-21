@@ -1,5 +1,5 @@
 import express from 'express';
-import Quest from '../models/Quest.js';
+import Quest from '../models/quest.js';
 import Result from '../models/result.js'; // Импортируем модель Result
 
 const router = express.Router();
